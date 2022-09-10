@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+.books_div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.booklist{
+  width: 80%;
+  border: 1px solid black;
+}
+.list_container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+.filter{
+  width: 20%;
+  border: 1px solid black;
+  margin-right: 1%;
+}
+.single_book{
+  width: 31.1%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 1px solid red;
+}
+
+.single_book>img{
+  width: 100%;
+} 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.single_book_page{
+  width: 100%;
+  padding: 2% 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
